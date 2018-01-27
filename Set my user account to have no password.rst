@@ -9,5 +9,7 @@ Using the terminal.
   Close the editor to apply the changes, and test the effect on sudo in a new terminal.
   
 - Delete the password for your user by running this command:
+  
   sudo passwd -d `whoami`
-  If you ever get prompted for a password, just type enter and it should work. I've tested this answer with LightDM, the lock screen, sudo, gksu and it works, but there's one more step to get it to work with pkexec (thanks muru).
+  
+If you ever get prompted for a password, just type enter and it should work. I've tested this answer with LightDM, the lock screen, sudo, gksu and it works, but there's one more step to get it to work with pkexec (thanks muru).
