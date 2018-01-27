@@ -1,8 +1,8 @@
  A curated list of linux commands.
  
- System Commands
-
-$ uname –a - display linux system information 
+System Commands
+===============
+- uname –a - display linux system information 
 $ uname –r - display kernel release information 
 $ uptime - show how long system running + load 
 $ hostname - show system host name 
