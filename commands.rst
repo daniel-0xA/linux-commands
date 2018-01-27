@@ -1,18 +1,18 @@
  A curated list of linux commands.
  
 System Commands
-===============
-- uname –a - display linux system information 
-$ uname –r - display kernel release information 
-$ uptime - show how long system running + load 
-$ hostname - show system host name 
-$ hostname -i - display the IP address of the host 
-$ last reboot - show system reboot history 
-$ date - show the current date and time 
-$ cal - show this month calendar 
-$ w - display who is online
-$ whoami - who you are logged in as 
-$ finger user - display information about user
+^^^^^^^^^^^^^^^
+``uname –a`` display linux system information 
+``uname –r`` display kernel release information 
+``uptime`` show how long system running + load 
+``hostname`` show system host name 
+``hostname -i`` display the IP address of the host 
+``last reboot`` show system reboot history 
+``date`` show the current date and time 
+``cal`` show this month calendar 
+``w`` display who is online
+``whoami`` who you are logged in as 
+``finger user`` display information about user
 
 Hardware related
 
