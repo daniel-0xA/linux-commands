@@ -1,0 +1,46 @@
+apt-get install sysstat
+avgqu-sz—The average queue length of the requests that were issued to the device.
+await—The average time (in milliseconds) for I/O requests issued to the device to be served.
+r_await—The average time (in milliseconds) for read requests issued to the device to be served.
+w_await—The average time (in milliseconds) for write requests issued to the device to be served.
+svctm—This field should be ignored (as it cannot be trusted). It was supposed to have been removed from sysstat.
+%util—Percentage of elapsed time during which I/O requests were issued to the device.
+
+lm-sensors isag
+
+
+vmstat
+netstat
+systat
+mpstat
+
+nmon — a system monitor tool for the AIX and Linux operating systems.
+iostat
+top
+sar
+
+dstat
+
+https://www.thomas-krenn.com/de
+
+
+---
+How do I list all binary executable files recursively within a directory?
+
+I use find command like this:
+
+find /mydir/mysubdir -executable -type f
+All executable files are listed (excluding directory), and including executable script file (like script.sh, etc). What I want to do is list only binary executable files.
+
+
+find -type f -executable -exec file -i '{}' \; | grep 'x-executable; charset=binary'/wiki/Linux_I/O_Performance_Messungen_mit_iostat
+
+---
+!!!
+sudo du -h -d 1 /var/lib/docker/
+
+root@xxx:/var/lib/docker# du -shc *
+
+---
+1,5G	/var/lib/docker/overlay2/b3e55041057390e2f336ac70065bc8c1ec5e1d93deeb43bf262ebc1fac376c4c
+1,2G	/var/lib/docker/overlay2/0a2ebddf543ab0155ce92406572f4c384ace3983901ae384429b809d28160ff1
