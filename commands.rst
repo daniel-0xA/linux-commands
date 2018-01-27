@@ -1,4 +1,4 @@
- A curated list of linux commands.
+A curated list of linux commands.
  
 System Commands
 ^^^^^^^^^^^^^^^
@@ -15,21 +15,21 @@ System Commands
 - ``finger user`` display information about user
 
 Hardware related
-
-   $ dmesg - detected hardware and boot messages 
-   $ cat /proc/cpuinfo - CPU model 
-   $ cat /proc/meminfo - hardware memory 
-   $ cat /proc/interrupts - lists the number of interrupts per CPU per I/O device 
-   $ lshw - displays information on hardware configuration of the system 
-   $ lsblk - displays block device related information in Linux 
-   $ free -m - used and free memory (-m for MB)
-   $ lspci -tv - show PCI devices 
-   $ lsusb -tv - show USB devices 
-   $ lshal - show a list of all devices with their properties 
-   $ dmidecode - show hardware info from the BIOS
-   $ hdparm -i /dev/sda -show info about disk sda 
-   $ hdparm -tT /dev/sda - do a read speed test on disk sda 
-   $ badblocks -s /dev/sda - test for unreadable blocks on disk sda
+^^^^^^^^^^^^^^^
+- ``dmesg`` detected hardware and boot messages 
+- ``cat /proc/cpuinfo`` CPU model 
+- ``cat /proc/meminfo`` hardware memory 
+- ``cat /proc/interrupts`` lists the number of interrupts per CPU per I/O device 
+- ``lshw`` displays information on hardware configuration of the system 
+- ``lsblk`` displays block device related information in Linux 
+- ``free``m`` used and free memory (-m for MB)
+- ``lspci``tv`` show PCI devices 
+- ``lsusb``tv`` show USB devices 
+- ``lshal`` show a list of all devices with their properties 
+- ``dmidecode`` show hardware info from the BIOS
+- ``hdparm``i /dev/sda``show info about disk sda 
+- ``hdparm``tT /dev/sda`` do a read speed test on disk sda 
+- ``badblocks``s /dev/sda`` test for unreadable blocks on disk sda
 
 Statistics and Analyze
 
