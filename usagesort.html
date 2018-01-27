@@ -1,0 +1,11 @@
+
+function usagesort {
+  local dir_to_list="$1"
+  cd "$dir_to_list"
+  du -h -d 1 | sort -k 1,1 -g
+}
+...
+$ usagesort "$HOME/Library/Containers" | grep -i docker
+43G	./com.docker.docker
+276K	./com.docker.helper
+is there an official work-around ot this issue or better yet when are you planning to actually fix it?
